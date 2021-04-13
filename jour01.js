@@ -1,7 +1,10 @@
-var name;
-
-name = "Ophélie";
+var test;
 
 
+test = "I'm very long !";
 
-console.log ("Nice to meet you " + name)
+
+
+
+console.log (test.length)
+ 
