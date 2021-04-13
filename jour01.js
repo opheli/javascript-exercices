@@ -47,3 +47,9 @@ var basicLowerCase = basic.toLowerCase();
 console.log (basicUpperCase);
 console.log (basicLowerCase);
 
+//07 Split
+
+var word = "banana"
+var letters = word.split("")
+
+console.log (letters)
