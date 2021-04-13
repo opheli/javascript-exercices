@@ -53,3 +53,10 @@ var word = "banana"
 var letters = word.split("")
 
 console.log (letters)
+
+//08 Template
+
+var age = "33";
+
+console.log(`I'm ${age} years old for a long time`);
+
