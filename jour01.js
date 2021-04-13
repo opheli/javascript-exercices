@@ -1,7 +1,7 @@
-var test;
+var name;
 
-test = "My name is Ophélie";
+name = "Ophélie";
 
 
 
-console.log (test)
+console.log ("Nice to meet you " + name)
