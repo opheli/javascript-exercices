@@ -154,3 +154,21 @@ switch (month) {
 	default: 
 		console.log("Fall");
 }
+
+// Bonus III
+
+console.log("Bonus III");
+
+var roundedNumber = 12.4
+;
+var floorNumber = Math.floor(roundedNumber)
+var ceilNumber = Math.ceil(roundedNumber)
+var roundNumber = Math.round(roundedNumber)
+
+
+if (floorNumber === roundNumber) {
+    console.log(floorNumber);
+} else {
+    console.log(ceilNumber);
+}
+
