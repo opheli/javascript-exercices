@@ -63,3 +63,28 @@ console.log(test === bis);
 console.log(test != bis);
 console.log(test !== bis);
 
+
+// 06 Condition
+
+console.log("exo06");
+
+var limit = 50;
+var score = 64;
+
+if (score >= limit) {
+    console.log("Ok good !");
+} else {
+    console.log("Oh nooo...");
+}
+
+
+console.log("exo06score40");
+
+var limit = 50;
+var score = 40;
+
+if (score >= limit) {
+    console.log("Ok good !");
+} else {
+    console.log("Oh nooo...");
+}
