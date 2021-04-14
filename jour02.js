@@ -102,3 +102,23 @@ if (passewordLength > 5) {
 } else {
     console.log();
 }
+
+// 08 Condition III
+
+console.log("exo07");
+
+var password = "azerty";
+var passwordLength = password.length;
+var limit = 50;
+var score = 64;
+var phrase;
+
+if (passwordLength > 5 && score >= limit) {
+    phrase = "Everything is good";
+} else if (passewordLength > 5 || score >= limit) {
+    phrase = "Something is good";
+} else {
+    phrase = "Nothing is good";
+} 
+
+console.log(phrase);
