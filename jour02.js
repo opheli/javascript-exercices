@@ -134,3 +134,23 @@ if (random === 10) {
 } else {
     console.log("So close");
 }
+
+// Bonus II
+
+console.log("Bonus II");
+
+var month = "january";
+
+switch (month) {
+	case "january" || "february" || "march": 
+		console.log("Winter");
+		break;
+	case "april" || "may" || "june": 
+		console.log("Spring");
+		break;
+	case "july" ||"august" || "september": 
+		console.log("Summer");
+		break;
+	default: 
+		console.log("Fall");
+}
