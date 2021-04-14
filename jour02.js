@@ -30,3 +30,17 @@ console.log(rounded);
 
 
 
+// 04 Arithmétique
+
+console.log("exo04");
+
+var test = 12;
+var bis = 5;
+
+console.log(test + bis);
+console.log(test - bis);
+console.log(test * bis);
+console.log(test / bis);
+console.log(test ** bis);
+console.log(test % bis);
+console.log((test + bis)-bis); // pour voir
