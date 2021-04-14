@@ -18,3 +18,15 @@ var stringified = "34";
 
 console.log(stringified);
 
+
+// 03 Round
+
+console.log("exo03");
+
+var num = 1.5;
+var rounded = Math.round(1.5);
+
+console.log(rounded);
+
+
+
