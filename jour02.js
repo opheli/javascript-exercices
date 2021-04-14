@@ -88,3 +88,17 @@ if (score >= limit) {
 } else {
     console.log("Oh nooo...");
 }
+
+
+// 07 Condition II
+
+console.log("exo07");
+
+var password = "azerty";
+var passewordLength = password.length
+
+if (passewordLength > 5) {
+    console.log("The password is secure");
+} else {
+    console.log();
+}
