@@ -44,3 +44,22 @@ console.log(test / bis);
 console.log(test ** bis);
 console.log(test % bis);
 console.log((test + bis)-bis); // pour voir
+
+
+
+// 05 Comparaison
+
+console.log("exo05");
+
+var test = 143;
+var bis = 219;
+
+console.log(test > bis);
+console.log(test < bis);
+console.log(test >= bis);
+console.log(test >= bis);
+console.log(test == bis);
+console.log(test === bis);
+console.log(test != bis);
+console.log(test !== bis);
+
