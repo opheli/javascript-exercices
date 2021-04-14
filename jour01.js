@@ -60,3 +60,17 @@ var age = "33";
 
 console.log(`I'm ${age} years old for a long time`);
 
+
+//10 Includes
+
+
+var phrase1 = "casse toi pov'con"; // pour cette phrase, vous devez écrire "false"
+var phrase2 = "bisou mon chéri"; // pour cette phrase, vous devez écrire "true"
+
+var bisou = "bisou";
+
+var phrase1Includes = phrase1.includes(bisou);
+var phrase2Includes = phrase2.includes(bisou);
+
+console.log(phrase1Includes, phrase2Includes)
+
