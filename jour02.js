@@ -105,7 +105,7 @@ if (passewordLength > 5) {
 
 // 08 Condition III
 
-console.log("exo07");
+console.log("exo08");
 
 var password = "azerty";
 var passwordLength = password.length;
@@ -122,3 +122,15 @@ if (passwordLength > 5 && score >= limit) {
 } 
 
 console.log(phrase);
+
+// Bonus
+
+console.log("Bonus");
+
+var random = Math.random;
+
+if (random === 10) {
+    console.log("Yes I win");
+} else {
+    console.log("So close");
+}
