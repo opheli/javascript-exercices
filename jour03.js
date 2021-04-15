@@ -100,3 +100,43 @@ var numbers = [4, 10, 8, 12, 6];
 numbers.sort((a,b) => a - b)
 console.table(numbers);
 console.log();
+
+
+// 05 Boucle
+
+console.log("Exo 05");
+
+var total = 0;
+var limit = 10;
+
+for (var i = 0; i <= limit; i++) {
+    total = total+i;
+	
+}
+
+console.log(total);
+
+console.log();
+
+
+
+// 06 Reverse
+
+console.log("Exo 06");
+
+var sentence = "hello Konexio !";
+var result = ''
+
+for(var i = sentence.length - 1; i !== -1; i--){
+    result += sentence.charAt(i)
+}
+
+console.log(result)
+
+var result2 = ''
+
+for(var i = 0; i < sentence.length; i++){
+    result2 += sentence.charAt(sentence.length-i-1)
+}
+
+console.log(result2)
