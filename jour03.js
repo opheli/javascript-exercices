@@ -28,6 +28,7 @@ console.log("Exo 03");
 var objects = ["pen", "book", "lamp"];
 
 console.table(objects);
+console.log();
 
 
 console.log("chair");
@@ -65,4 +66,37 @@ objects.pop ()
 objects.push ("laptop")
 objects.shift ()
 console.table(objects);
+console.log();
+
+
+// 04 Reverse & Sort
+
+console.log("Exo 04");
+
+var numbers = [4, 10, 8, 12, 6];
+console.table(numbers);
+console.log();
+
+
+console.log("inverser");
+
+var numbers = [4, 10, 8, 12, 6];
+numbers.reverse()
+console.table(numbers);
+console.log();
+
+
+console.log("tri alphanum");
+
+var numbers = [4, 10, 8, 12, 6];
+numbers.sort()
+console.table(numbers);
+console.log();
+
+
+console.log("tri croissant");
+
+var numbers = [4, 10, 8, 12, 6];
+numbers.sort((a,b) => a - b)
+console.table(numbers);
 console.log();
