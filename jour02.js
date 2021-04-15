@@ -115,7 +115,7 @@ var phrase;
 
 if (passwordLength > 5 && score >= limit) {
     phrase = "Everything is good";
-} else if (passewordLength > 5 || score >= limit) {
+} else if (passwordLength > 5 || score >= limit) {
     phrase = "Something is good";
 } else {
     phrase = "Nothing is good";
@@ -159,8 +159,7 @@ switch (month) {
 
 console.log("Bonus III");
 
-var roundedNumber = 12.4
-;
+var roundedNumber = 12.4;
 var floorNumber = Math.floor(roundedNumber)
 var ceilNumber = Math.ceil(roundedNumber)
 var roundNumber = Math.round(roundedNumber)
