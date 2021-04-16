@@ -140,3 +140,22 @@ for(var i = 0; i < sentence.length; i++){
 }
 
 console.log(result2)
+
+
+// 07 Fizzbuzz
+
+console.log("Exo 07");
+
+var limit = 100;
+
+var three = (% 0);
+
+
+for (var i = 0; i <= limit; i++) {
+	if (i) {
+        console.log("fizz");
+    } else {
+        console.log(i);
+    }
+}
+
