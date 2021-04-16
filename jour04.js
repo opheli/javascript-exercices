@@ -36,5 +36,22 @@ console.log();
 
 console.log("Exo 02");
 
+let cat2 = {
+    name: "Garfield",
+    age: 3,
+    isCute: true
+};
+
+let cat4 = {
+    name: "Lucifer",
+    age: 5,
+    isCute: false
+};
+
+let cats = [cat2, cat4];
+
+console.log(cat2["isCute"]);
+
+
 
 console.log();
