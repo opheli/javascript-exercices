@@ -51,6 +51,25 @@ let cat4 = {
 let cats = [cat2, cat4];
 
 console.log(cat2["isCute"]);
+console.log(cat2.isCute);
+
+
+
+console.log();
+
+// 03 Even
+
+console.log("Exo 03");
+
+let checkIfEven = 12
+
+
+if (floorNumber === roundNumber) {
+    console.log(floorNumber);
+} else {
+    console.log(ceilNumber);
+}
+
 
 
 
