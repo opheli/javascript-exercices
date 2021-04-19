@@ -117,7 +117,7 @@ function compare(num1, num2) {
 
     var total = 0;
     var limit = 12;
-
+    
     for (var i = 0; i <= limit; i++) {
     
     total += i;
@@ -128,3 +128,29 @@ function compare(num1, num2) {
     console.log(total);
 
     console.log();
+
+
+    // 06 - time
+
+    console.log("Exo 06");
+
+
+    function format(num) {
+
+        num = 3700
+
+        var heure = parseInt(prompt("Heure"));
+        var minute = parseInt(prompt("Minute"));
+        var seconde = parseInt(prompt("Secondes"));
+        var enSeconde = (heure * 3600) + (minute * 60) + seconde;
+         
+        console.log(3700);
+      }
+
+      console.log();
+      var heure = parseInt(prompt("Heure"));
+      var minute = parseInt(prompt("Minute"));
+      var seconde = parseInt(prompt("Secondes"));
+      var enSeconde = (heure * 3600) + (minute * 60) + seconde;
+       
+      console.log(3700);
