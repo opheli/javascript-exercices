@@ -61,16 +61,20 @@ console.log();
 
 console.log("Exo 03");
 
-let checkIfEven = 12
+function checkIfEven(num) {
 
+    let resultat = 0;
+      
+    if (resultat = num % 2 === 0 ) {
+        console.log("even");
+    
+    } else {   
+        console.log("odd");
 
-if (floorNumber === roundNumber) {
-    console.log(floorNumber);
-} else {
-    console.log(ceilNumber);
-}
+    }
+    return resultat;
+};
 
-
-
+console.log(checkIfEven(15))
 
 console.log();
