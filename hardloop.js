@@ -113,4 +113,5 @@ for (let i = 0; i <= words.length - 1; i++) {
 };    
 
 console.log("final result", compte);
+
 console.log()

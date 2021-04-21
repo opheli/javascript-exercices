@@ -51,10 +51,13 @@ function entierAleatoire(min, max) {
 };
 
 
-for(var i=0;i<10;i++){
-	println(hasard(1,20));
-}
-console.log();
+for (let i = 0; i <= 20; i++) {
+    let sum = entierAleatoire(1, 6);
+    if (sum >= 5) { 
+    lance = lance + sum;
+    };
+};
+console.log(entier);
 
 
 console.log();

@@ -128,8 +128,9 @@ console.log(phrase);
 console.log("Bonus");
 
 var random = Math.random;
+var restultat = Math.round(random*10)
 
-if (random === 10) {
+if (resultat === 10) {
     console.log("Yes I win");
 } else {
     console.log("So close");
