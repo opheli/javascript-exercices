@@ -63,3 +63,6 @@ function multiply(numEntier) {
 
 let numEntier = parseInt(arguments[0]);
 let total = multiply (numEntier);
+
+
+// 03  Table
