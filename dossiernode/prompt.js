@@ -15,4 +15,4 @@ prompt.get(["username", "email"], function (err, res) {  // demande à obtenir l
   console.log("Données reçues :");
   console.log("=> Username : " + res.username); // affiche le résultat pour la propriété "username"
   console.log("=> Email : " + res.email); // affiche le résultat pour la propriété "email"
-});c d
+});
