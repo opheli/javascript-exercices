@@ -11,6 +11,7 @@
   "dependencies": {
     "moment": "^2.29.1",
     "prompt": "^1.1.0",
-    "promt": "*"
+    "promt": "*",
+    "random-words": "^1.1.1"
   }
 }

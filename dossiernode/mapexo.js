@@ -32,7 +32,7 @@ let longNames = [
 let shortNames = longNames.map(
     function (element) {
         let total = element.firstName + " " + element.lastName;
-        return { name: total, };
+        return { name: total };
 
     });
 console.log(shortNames);
@@ -122,11 +122,14 @@ let chocolateCakes = cakes.filter(function (element) {
 console.log(chocolateCakes);
 
 let chocolateCakesTwo = chocolateCakes.map(function (element) {
-    let status = 'sold out !';
-    let name = element.name;
-    let flavor = element.flavor;
-    return {name, flavor, status} ;
+   //let status = 'sold out !';
+    //let name = element.name;
+    //let flavor = element.flavor;
+    //return {name, flavor, status} ;
+    element.status = "sold out!";
+    console.log("element après modif de status", element);
 
+    return element
 });
 
 console.log(chocolateCakesTwo);
