@@ -31,7 +31,7 @@ let longNames = [
 let shortNames  = longNames.map(
     function(element) {
         let total = element.firstName +" "+ element.lastName;
-    return "name:" +" "+ total; 
+    return {name: total,} ; 
    
 });
 console.log(shortNames);
@@ -39,6 +39,23 @@ console.log(shortNames);
 
 //04 - Filter Numbers
 
-console.log("Exo 04");
+console.log('Exo 04');
 
-let array = [1, "toto", 34, "javascript", 8];
+let array = [1, 'toto', 34, 'javascript', 8];
+
+
+//let num = [1, 2, 3, 4, 5];
+
+let numbersFilt = array.filter(function(element) {
+  
+  return element >= 0 || element <= 0;
+
+});
+
+console.log(numbersFilt);
+
+
+
+//05 - Filter Even
+
+console.log('Exo 05');
