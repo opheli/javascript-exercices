@@ -4,8 +4,8 @@ console.log("Exo 02");
 
 let numbers = [1, 2, 3, 4, 5];
 
-let doubles = numbers.map(function(num) {
-  return num*2;
+let doubles = numbers.map(function (num) {
+    return num * 2;
 });
 
 console.log(doubles);
@@ -19,21 +19,21 @@ console.log("Exo 03");
 
 let longNames = [
     {
-		firstName: "Jane",
-		lastName: "Doe"
-	},
-	{
-		firstName: "John",
-		lastName: "Smith"
-	}
+        firstName: "Jane",
+        lastName: "Doe"
+    },
+    {
+        firstName: "John",
+        lastName: "Smith"
+    }
 ];
 
-let shortNames  = longNames.map(
-    function(element) {
-        let total = element.firstName +" "+ element.lastName;
-    return {name: total,} ; 
-   
-});
+let shortNames = longNames.map(
+    function (element) {
+        let total = element.firstName + " " + element.lastName;
+        return { name: total, };
+
+    });
 console.log(shortNames);
 
 
@@ -46,9 +46,9 @@ let array = [1, 'toto', 34, 'javascript', 8];
 
 //let num = [1, 2, 3, 4, 5];
 
-let numbersFilt = array.filter(function(element) {
-  
-  return element >= 0 || element <= 0;
+let numbersFilt = array.filter(function (element) {
+
+    return element >= 0 || element <= 0;
 
 });
 
@@ -59,3 +59,17 @@ console.log(numbersFilt);
 //05 - Filter Even
 
 console.log('Exo 05');
+
+
+
+let numbersTwo = [1, 2, 3, 4, 5, 6, 7, 8];
+
+let numbersEven = numbersTwo.filter(function (element) {
+
+    return element % 2 === 0;
+
+});
+
+console.log(numbersEven);
+
+
