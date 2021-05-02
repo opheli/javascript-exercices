@@ -36,7 +36,7 @@ console.log(numbersFilt); // retournera [2, 4, 6, 8, 10]*/
 
 //suite
 
-var people = [
+/*var people = [
     {name: "Claire", age: 45},
     {name: "Joachim", age: 9},
     {name: "Bob", age: null},
@@ -53,5 +53,12 @@ var people = [
   //   {name: "Claire", age: 45},
   //   {name: "Joachim", age: 19},
   //   {name: "James", age: 22}
-  // ];
+  // ];*/
 
+//reduce
+
+var numbers = [1, 2, 3, 4, 5];
+
+var total = numbers.reduce((acc, cur) => acc + cur); // syntaxe "arrow function"
+
+console.log(total); // retournera 1 + 2 + 3 + 4 + 5 = 15

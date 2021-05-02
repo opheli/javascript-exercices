@@ -31,6 +31,7 @@ function restart() {
     mysteryWords = randomWords();
     myArray = mysteryWords.split("");
     console.log(mysteryWords);
+    //numberLetters = mysteryWords.length;
 
 
     prompt.get(properties, function (error, result) {
@@ -63,6 +64,9 @@ function play() {
             restart();
             return;
         }
+        
+      
+        
 
 
         let rechercheLetter = myArray.map(function (element) {
@@ -71,7 +75,7 @@ function play() {
                 restart()
                 return;
             }*/
-
+          
 
             if (arrayUser.indexOf(element) !== -1) {
                 return element;
